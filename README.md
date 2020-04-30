@@ -1,5 +1,5 @@
 # uwcscoursescrape
-Scraping the UWaterloo CS Course offerings into a CSV file through *Python*. This uses *requests* to get the HTML, and *BeautifulSoup4* to parse it.\
+Scraping the UWaterloo CS Course offerings into a CSV file through *Python*. This uses *requests* to get the HTML, *BeautifulSoup4*, and *Pandas* to store and save the parsed data to parse it.\
 This skips courses not available to CS students, and was made based on the 2020-21 Undergraduate Calendar.
 
 This scrapes the following data:\
